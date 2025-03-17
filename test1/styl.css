@@ -1,0 +1,63 @@
+/* تنسيق الصفحة بالكامل */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* تنسيق الروابط */
+a {
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 5px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+a:hover {
+    background-color: #0056b3;
+}
+
+/* تباعد بين الأقسام */
+section, section1, section2 {
+    padding: 20px;
+    font-size: 20px;
+}
+
+/* تنسيق الصور */
+img {
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin: 15px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* تأثير عند التمرير فوق الصور */
+img:hover {
+    transform: scale(1.05);
+}
+
+/* تنسيق أرقام التواصل */
+section2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    background-color: #ddd;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* إزالة الهوامش غير الضرورية */
+hr {
+    border: 1px solid #ccc;
+    width: 80%;
+    margin: 20px auto;
+}
